@@ -6,6 +6,8 @@ Simple script to convert an HTML file of a completed Canvas quiz to a Quizlet fl
 
 This project was started out of need, and served as a good exercise in parsing HTML with Regex (something I'm utilizing in a larger future project.)
 
+## This is an updated fork that has been fixed to work with canvas HTML files
+
 ## Usage
 You should begin with a completed Canvas quiz, where correct answers are marked:
 
@@ -17,5 +19,5 @@ Copy the entirety of the .txt file and import into Quizlet by creating a new set
 
 ## Notes
 * Regardless of what you answered for a question, only the correct answer will be extracted
-* Questions containing an image or table will be removed since Quizlet does not allow them to be imported
+* Questions containing an image or table will not work (planned to be fixed)
 * Questions with the answer "All of the above" will be removed
